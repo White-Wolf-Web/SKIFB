@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Carrousel from "../../components/carrousel/Carrousel";
 import DojoAllInstructors from "../../components/dojos/DojoAllInstructors";
-import DojoSchedules from "../../components/dojos/DojoSchedules";
+//import DojoSchedules from "../../components/dojos/DojoSchedules";
 import DojoContact from "../../components/dojos/DojoContact";
 import DojoAdress from "../../components/dojos/DojoAdress";
 import { useTranslation } from "react-i18next";

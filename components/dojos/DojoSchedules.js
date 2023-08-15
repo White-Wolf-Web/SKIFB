@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import "../../i18n";
+//import "../../i18n";
 import { useTranslation } from "react-i18next";
 
 export default function DojoSchedules(props) {

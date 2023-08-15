@@ -4,7 +4,7 @@ import ChiefInstructorCard from "./ChiefInstructorCard";
 import InstructorCard from "./InstructorCard";
 import { useRouter } from 'next/router'
 import styles from "../../styles/dojos.module.css"
-import "../../i18n";
+//import "../../i18n";
 import { useTranslation } from "react-i18next";
 
 export default function DojoAllInstructors() {
