@@ -2,7 +2,6 @@
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/custom-bootstrap.css";
-import { SSRProvider } from "react-bootstrap";
 import Head from "next/head";
 import { Roboto, Montserrat, Open_Sans, Source_Sans_Pro } from "next/font/google";
 import Header from "../components/header/Header";
@@ -36,14 +35,14 @@ const sourceSansPro = Source_Sans_Pro({
 function App({ Component, pageProps }) {
 	return (
 		<>
-			<SSRProvider>
+			
 				<Head>
 					<meta name="viewport" content="width=device-width, initial-scale=1" />
 				</Head>
 				<Header />
 				<Component {...pageProps} />
 				<Footer />
-			</SSRProvider>
+			
 		</>
 	);
 }

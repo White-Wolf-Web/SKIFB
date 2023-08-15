@@ -6,8 +6,8 @@ import { useTranslationReady } from "../components/hook/useTranslationReady";
 
 export default function DojoKun() {
 	const { t, i18n } = useTranslation();
-	const lang = i18n.language.toUpperCase();
-	const downloadURL = `https://skifb-admin.be/api/DocumentsApi/DownloadDocument?id=d85e1994-9fda-4e75-8201-d8c00f8c9536&&versionFile=${lang}`;
+	//const lang = i18n.language.toUpperCase();
+	//const downloadURL = `https://skifb-admin.be/api/DocumentsApi/DownloadDocument?id=d85e1994-9fda-4e75-8201-d8c00f8c9536&&versionFile=${lang}`;
 	const isReady = useTranslationReady();
 
 	if (!isReady) {
@@ -49,10 +49,12 @@ export default function DojoKun() {
 		</main>
 	);
 }
+ 
 export async function getStaticProps({ locale }) {
-	return {
-		props: {
-			...(await serverSideTranslations(locale, ["dojokun"])),
-		},
-	};
+    return {
+        props: {
+            ...(await serverSideTranslations(locale, ["translation"])),
+        },
+    };
 }
+

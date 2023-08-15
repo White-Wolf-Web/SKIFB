@@ -1,6 +1,6 @@
 import React, { useEffect  }from "react";
 import { useTranslation } from "react-i18next";
-import "../i18n";
+//import "../i18next";
 import "../styles/pages.module.css"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslationReady } from "../components/hook/useTranslationReady";
@@ -56,6 +56,7 @@ export default function TermsConditions() {
 		</main>
 	);
 }
+
 export async function getStaticProps({ locale }) {
 	return {
 		props: {
