@@ -1,0 +1,16 @@
+.nav-link:hover {
+    background-color: transparent !important;
+}
+
+.btn.show, .btn:first-child:active {
+    color: gold;
+    background-color: transparent;
+}
+
+.accordion-button::after {
+    background-image: url(/assets/images/icons/chevron-down-solid-gold.webp) !important;
+}
+/*
+.btn-primary {
+    background-color: var(--secondaryColor)
+}*/

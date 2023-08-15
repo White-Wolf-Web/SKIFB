@@ -1,0 +1,109 @@
+.footer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--primaryColor);
+	color: var(--secondaryColor);
+	height: 225px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 90%;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	
+}
+.broderieSociale {
+	max-width: 45%;
+	display: flex;
+	flex-direction: column;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.skifBroderie {
+	height: auto;
+	width: auto;
+	max-width: 90%;
+	margin-top: 10px;
+}
+.icons {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-top: 12px;
+}
+
+.icons li {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.footerLiens {
+	max-width: 230px;
+}
+.footer ul {
+	padding: 0;
+	margin: 0;
+}
+.footer ul li {
+	display: flex;
+	margin: 7px 0 7px 0;
+	flex-wrap: nowrap;
+}
+.fontAwesomeIcon{
+	width: 16px;
+	height: 16px;
+	display: inline-flex;
+	justify-content: center;
+}
+.logoSkifWorld {
+	display: none;
+	height: 175px !important;
+	width: 175px !important;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.footer a {
+	color: var(--secondaryColor);
+	text-decoration: none;
+	transition: 0.2 opacity;
+}
+.footer a:hover {
+	opacity: 0.8 !important;
+	color: var(--secondaryColor);
+}
+.postFooter {
+	background-color: var( --primaryColorFonce);
+	color: var(--secondaryColor);
+	display: flex;
+	justify-content: center;
+}
+
+.linkButton {
+	background: none!important;
+	border: none;
+	padding: 0!important;
+	cursor: pointer;
+	color: var(--secondaryColor);
+  }
+  
+
+@media all and (min-width: 600px) {
+	.logoSkifWorld {
+		display: flex;
+	}
+}
+@media all and (max-width: 500px) {
+.footer__liens {
+	max-width: 70%;
+}
+}
+@media all and (max-width: 403px) {
+	.footer {
+		height: auto;
+	}
+	.footer a {
+		font-size: 14.8px;
+	}
+}

@@ -1,0 +1,15 @@
+.nextEvent {
+    width:362px;
+    height: 512px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 576px) {
+    .nextEvent {
+    max-width: 90%;
+    height: auto;
+    }
+}

@@ -1,0 +1,191 @@
+/* CARDS */
+.DojoGallery {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dojosCard {
+    margin: 18px;
+    width: 18rem;
+}
+
+
+.dojoCardTitle {
+    font-weight: 800;
+    color: var(--primaryColor);
+}
+.dojoCardInstructeur {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.btnPrimary {
+    background-color: var(--primaryColor);
+    border-color: brown;
+    float: right;
+}
+.dojoTown {
+    color: var(--tertiaryColor);
+}
+
+/*  Instructor Card  + Chef */ 
+.instructorCardCard {
+    background-color:white;
+    flex-direction: row;
+    height: 127px;
+    width: 300px;
+    border-color: var(--primaryColor);
+}
+.instructorCardCardImgTop {
+    width: 94px;
+    height: 125px;
+    background-color: green;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+}
+.instructorCardTitle {
+    color: var(--primaryColor);
+}
+
+/* DOJOS CLUB   */
+
+.galleryInstructorDojo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+.galleryInstructorDojoCard {
+    margin-left: 0;
+    margin-right: 0;
+}
+.displayNone {
+    display: none;
+}
+.dojoInstructors {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dojoShedules {
+    background-color: transparent;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.dojoShedulesBis {
+    background-color: white !important;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.dojoShedules li:first-child {
+    font-family: Baskerville;
+    font-weight: 600 !important;
+    font-size: 19px;
+}
+
+.dojoContact {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.dojoContactBis {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: white !important;
+}
+.dojoContact p {
+    font-family: Baskerville;
+    font-weight: 600;
+   
+}
+.dojoContactH3,
+.dojoShedulesH3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 19px;
+    margin-bottom: 0;
+    font-family: Baskerville;
+    font-weight: 600 !important;
+}
+.cardContact {
+display: flex;
+}
+.cardBodyAddress {
+    display: flex;
+}
+.googleMap {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    max-width: calc(90% - 150px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.dojoAdressCard {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.dojoAdressCardBis {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.dojoAddress {
+    font-weight: 700;
+}
+
+@media all and (max-width: 768px) {
+    .galleryInstructorDojo {
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .galleryInstructorDojoCard {
+        margin-left: 8px !important;
+        margin-right: 8px !important;
+    }
+    .cardBodyAddress {
+        display: block;
+        justify-content: center;
+    }
+    .googleMap {
+        width: 720px;
+        max-width: 100%;
+        height: 150px;
+        margin-top: 10px;
+}
+.dojoAdressCard {
+    text-align: center;
+    
+}
+}
+@media all and (max-width: 576px) {
+
+.dojoContact p {
+    font-family: Baskerville;
+    font-weight: 600;
+    font-size: 14px;
+   
+}}

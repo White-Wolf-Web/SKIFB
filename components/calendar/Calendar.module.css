@@ -1,0 +1,120 @@
+
+.accordion {
+    --bs-accordion-active-bg: var(--primaryColor)!important;
+    --bs-accordion-active-color: var(--secondaryColor)!important;
+    --bs-accordion-bg: var(--primaryColor)!important;
+    --bs-accordion-color: whitesmoke!important;
+    --bs-accordion-border-radius: 10px !important; 
+    color: aliceblue!important;
+}
+.accordion-button {
+    color:var(--secondaryColor)!important; 
+}
+.accordion-flush, .accordion-item, .accordion-button, .accordion-flush, .accordion-item, .accordion-button.collapsed  {
+    border-radius: 10px !important; 
+}
+
+.accordion-button:focus {
+box-shadow: none !important;
+}
+.accordion-item {
+background-color: var(--bs-gray-900) !important;
+margin-bottom: 10px;
+
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/images/icons/chevron-down-solid-gold.webp)!important;
+ 
+}
+.accordion-button::after { 
+    background-image: url(/assets/images/icons/chevron-down-solid-gold.webp)!important;
+
+}
+.calendarAccordion {
+    max-width: 90%;
+    width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+.calendarAccordionHeader {
+   
+    display: flex;
+    width: 95%;
+    justify-content:left;
+}
+.breakingSpace {
+    margin: 0 5px;
+}
+.calendarBody {
+    display: flex;
+    justify-content: space-between;
+}
+.calendarCardText {
+
+max-width: 550px;
+}
+.calendarCardCoverImg {
+    background-image: url(/public/images/Png/unsu.png);
+    margin: 0 0 0 20px;
+    width:200px;
+    height:283px;
+}
+
+.br {
+    margin-bottom: 10px; 
+}
+.calendarFilterContainer {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    float: none !important;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.btnPrimary {
+background-color: #E6C619;
+border: #E6C619;
+color:#840104;
+font-weight: 700;
+
+}
+.btnPrimary:hover {
+    color: var(--primaryColorFonce)!important;
+    background-color: #E6C619;
+}
+@media all and (max-width: 768px) {  
+
+    .calendarBody {
+       flex-direction: column;
+    }
+    .calendarPoster {
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 15px;
+    }
+    .calendarCardCoverImg {
+        margin: 10px auto 0 auto;
+        width:200px;
+        height:283px;
+    }
+}
+@media all and (max-width: 576px) {  
+    .breaking-space {
+        margin: 0;
+    }
+    .calendar-accordion-header {
+        flex-direction: column;
+        width: 90%;
+        
+    }
+    .calendar-accordion-header div {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+       
+    }
+
+}

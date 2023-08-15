@@ -1,0 +1,63 @@
+{
+	"board": {
+		"Title": "理事会",
+		"ChiefInstructor": "チーフ・インストラクター",
+		"President": "会長",
+		"VicePresident": "副会長",
+		"Treasurer": "会計",
+		"Secretary": "書記",
+		"Name": "名称",
+		"Function": "機能",
+		"Email": "Eメール"
+	},
+	"federal_calendar": {
+		"h1": "連邦暦",
+		"club": "会所",
+		"timetable": "時刻表 ",
+		"to": "まで ",
+		"location": "場所 : ",
+		"adress": "住所 : ",
+		"contact": "接触 : ",
+		"mail": "郵便 : "
+	},
+	"footer": {
+		"becoming_a_member": " SKIF 会員になる",
+		"space_member": " 会員専用エリア",
+		"photo": " 写真",
+		"conditions": " 一般条件",
+		"contact": "連絡",
+		"dojo": "挌技場",
+		"legal_notice ": "法的注意事項",
+		"terms_and_conditions": "ご利用条件",
+		"privacy_policy": " 個人情報保護方針"
+	},
+	"home": {
+		"title": "國 際 松 濤 館 空 手 道 ベ ル ギ ー 連 盟",
+		"section1_h2": "SKIF-B へようこそ",
+		"section1_text": "SKIF-Bでは、東京のSKIF本部道場で教えられている伝統的な松濤館空手道を教え、練習しています。性別、年齢、能力を問わず、誰もが空手道松涛館を上達できるような指導を行っています。",
+		"section2_h2": "日本とのつながり",
+		"section2_text": "日本人講師との緊密な連携により、メンバーは日本の優れた専門家から直接ハイレベルな指導を定期的に受けることができます。当社の段級はすべて日本で登録されています。",
+		"section3_h2": "空手家",
+		"section3_text": "SKIFのメンバーとして、あなたは世界的な空手ファミリーであるSKIF からてか の一員です。SKIFのFは 連盟 だけでなく、友 や 家族 を意味します。",
+		"section4_h2": "空手競技会",
+		"section4_text": "若い空手家に、ベルギー国内外において、安全で尊重された環境で競技を行う機会を提供しています。このサイトをご覧になって、私たちやSKIFについてもっと知っていただくことをお勧めします。"
+	},
+	"karateka": {
+		"referee": "審判員"
+	},
+	"nav": {
+		"home": "家",
+		"history": "歴史",
+		"concept": "空手コンセプト",
+		"calendar": "暦",
+		"board": "取締役会",
+		"rules": "仲裁規則",
+		"referee": "審判員",
+		"administration": "管理",
+		"document": "文書",
+		"karatekas": "空手の道士"
+	},
+	"referees": {
+		"referee": "審判員"
+	}
+}
